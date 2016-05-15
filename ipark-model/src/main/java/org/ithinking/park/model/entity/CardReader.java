@@ -30,8 +30,9 @@ public class CardReader {
     // 休眠卡的时间
     private String cardSleepTime;
     //播报车牌标志
-    private Boolean enable;
+    private Boolean enableVoice;
     //语音播报阀值
+    private Integer voiceThreshold;
 
     //出入口
     //音量
